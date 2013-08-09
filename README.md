@@ -1,4 +1,4 @@
 technoradar
-===========
+=================
 
-TechnoRadar -- User-populated data radar
+TechnoRadar - User-populated data visualization

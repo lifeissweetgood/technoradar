@@ -1,0 +1,47 @@
+body
+{
+    margin: 0 auto;
+    padding: 20px 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.poll
+{
+    float:left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.poll ul
+{
+    list-style-type: none;
+}
+
+.poll ul li
+{
+    padding: 20px;
+}
+
+#font-choice
+{
+    margin-left: 30px;
+}
+
+.graph
+{
+    float:right;
+    width: 500px;
+    height: 500px;
+}
+
+#listdiv
+{
+    width: auto;
+    height: auto;
+    border: #000 solid;
+    background-color: #999;
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+

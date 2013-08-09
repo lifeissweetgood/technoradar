@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Font Preference Poll Web App</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="poll">
+            <form method="POST">
+                <ul>
+                    <li>
+                        <label>Name</label>
+                        <input type="text" name="username" maxlength="20"/>
+                    </li>
+                    <li>
+                        <label>Preferred Programming Language?</label><br/>
+                        <p id="font-choice"><input type="radio" name="fav_lang" value="C">C</p>
+                        <p id="font-choice"><input type="radio" name="fav_lang" value="Java">Java</p>
+                        <p id="font-choice"><input type="radio" name="fav_lang" value="Python">Python</p>
+                        <p id="font-choice"><input type="radio" name="fav_lang" value="Clojure">Clojure</p>
+                    </li>
+                    <li>
+                        <label>How long have you been programming?</label>
+                        <input type="number" name="yrs_coding" min="0" max="50">
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit"/>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="graph">
+            
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/form.js"></script>
+    </body>
+</html>
